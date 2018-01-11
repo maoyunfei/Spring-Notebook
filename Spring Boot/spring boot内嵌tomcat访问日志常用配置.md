@@ -5,11 +5,11 @@
 server:
   tomcat:
     accesslog:
-      enabled: true			#是否开启日志
+      enabled: true		#是否开启日志
       directory: /tmp/accesslogs/mobile-site   #日志存储目录
       pattern: '%t %a %A %m %U%q %s %D %I %B'  #日志格式
-      prefix: access						#日志文件前缀
-      rename-on-rotate: true				#是否启用日志轮转
+      prefix: access		#日志文件前缀
+      rename-on-rotate: true	 #是否启用日志轮转
 ```
 
 ## pattern的配置：
